@@ -1,4 +1,33 @@
-body {
-  background-color: black;
-  color: orangered;
+.form-select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.card-custom {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 8px;
+  width: calc(33% - 16px); /* Para lograr tres columnas */
+  box-sizing: border-box;
+}
+
+.card-img-custom {
+  width: 100%;
+  height: auto;
+}
+
+.card-body-custom {
+  padding: 8px;
+}
+
+.card-title-custom {
+  font-size: 1.25em;
+  margin-bottom: 8px;
+}
+
+.card-text-custom {
+  font-size: 1em;
+  color: #666;
 }
